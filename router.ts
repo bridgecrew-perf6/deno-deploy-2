@@ -6,7 +6,7 @@ let postal = new us_zip_codes();
 function handler(_req: Request) {
   let y = postal.get("93108");
   const data = {
-    destination_phone_number: "+18443677787",
+    destination_phone_number: "+18558380022,",
     source: "deno-deploy!",
     version: ".001",
     location: JSON.stringify(y),
