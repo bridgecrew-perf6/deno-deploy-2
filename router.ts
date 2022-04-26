@@ -5,6 +5,7 @@ function handler(_req: Request) {
   const data = {
     destination_phone_number: "+18443677787",
     source: "deno-deploy!",
+    version: ".001",
   };
   const body = JSON.stringify(data, null, 2);
   return new Response(body, {
