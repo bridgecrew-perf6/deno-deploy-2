@@ -12,8 +12,8 @@ function handler(req: Request) {
    
   let miles = postal.get_miles(inputs.postal1,inputs.postal2);
   
-  const data = {
-    destination_phone_number: "+18558380022,",
+  //  destination_phone_number: "+18558380022,",
+  const data = {   
     source: "deno-deploy!",
     version: ".002",
     location: miles,
