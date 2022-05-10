@@ -1,7 +1,7 @@
 import { serve } from "https://deno.land/std@0.114.0/http/server.ts";
-import { us_zip_codes } from "./us_zip_codes.ts";
+//import { us_zip_codes } from "./us_zip_codes.ts";
 
-let postal = new us_zip_codes();
+//let postal = new us_zip_codes();
 
 function handler(req: Request) {
   let inputs = {"postal1":"nada","postal2":"nada"};
