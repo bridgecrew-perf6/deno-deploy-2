@@ -10,7 +10,8 @@ function handler(req: Request) {
       inputs = await req.json();
   }
    
-  let miles = postal.get_miles(inputs.postal1,inputs.postal2);
+  //let miles = postal.get_miles(inputs.postal1,inputs.postal2);
+  let miles = 0.0;
   
   //  destination_phone_number: "+18558380022,",
   const data = {   
